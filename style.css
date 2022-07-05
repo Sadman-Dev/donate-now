@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+}
+
+body h2
+{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body p
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-area
+{
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.hero-area h2
+{
+    text-transform: uppercase;
+    font-size: 70px;
+    color: #fff;
+}
+
+.hero-area p
+{
+    color: #fff;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.btn
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color: #FF5959;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ammount-area
+{
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.ammount-area h2
+{
+    margin-bottom: 20px;
+    font-size: 40px;
+
+}
+
+.ammount-area p 
+{
+    width: 40%;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-bottom: 40px;
+    font-size: 19px;
+   
+}
+
+.ammount-area ul
+{
+    display: flex;
+    width: 40%;
+    padding-left: 22%;
+}
+
+.ammount-area ul li
+
+{
+    list-style: none;
+    padding: 35px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.ammount-area ul span
+{
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #FFEEEE;
+}
+
+.ammount-area input
+{
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #B3B3B3;
+    font-size: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+.other-ammount
+{
+    margin-bottom: 70px;
+}
+
+.plan-area
+{
+    text-align: center;
+}
+
+.plan-area h2
+{
+    margin-bottom: 20px;
+    font-size: 40px;
+   
+
+}
+
+.plan-area p 
+{
+    width: 40%;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-bottom: 40px;
+    font-size: 19px;
+   
+}
+
+.flex-container 
+{
+    display: flex;
+}
+
+.plan-item
+{
+    width: 33.3%;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.plan-item h2
+{
+    font-size: 25px;
+    
+}
+
+.plan-item p
+{
+    font-size: 15px;
+   
+}
+
+.item-one
+{
+    background-color: #EDF5F6;
+    margin-left: 100px;
+}
+
+.item-two
+{
+    background-color: #FFEEEE;
+}
+
+.item-three
+{
+    background-color: #FFF4D6;
+    margin-right: 100px;
+}
