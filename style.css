@@ -124,9 +124,10 @@ input:focus {
 .plan-area
 {
     text-align: center;
+    margin-bottom: 150px;
 }
 
-.plan-area h2
+.plan-heading h2
 {
     margin-bottom: 20px;
     font-size: 40px;
@@ -134,15 +135,29 @@ input:focus {
 
 }
 
-.plan-area p 
+.plan-heading p
 {
     width: 40%;
     text-align: center;
     padding-left: 30%;
     padding-right: 30%;
     margin-bottom: 40px;
-    font-size: 19px;
-   
+    font-size: 17px;                                                           
+}
+
+.plan-item
+{
+    width: 40%;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.plan-item h2
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .flex-container 
@@ -154,8 +169,7 @@ input:focus {
 {
     width: 33.3%;
     margin-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 40px;
 }
 
 .plan-item h2
@@ -185,4 +199,125 @@ input:focus {
 {
     background-color: #FFF4D6;
     margin-right: 100px;
+}
+
+.contribute-area 
+{
+    margin-bottom: 150px;
+}
+
+.contribute-text
+{
+    width: 50%;
+    margin-top: 40px;
+    padding-left: 90px;
+}
+
+.contribute-text h2
+{
+    margin-bottom: 20px;
+    font-size: 40px;   
+}
+
+.contribute-text p
+{
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.contribute-img
+{
+    width: 50%;
+    
+    
+}
+
+.contribute-img img
+{
+    width: 95%;
+    border-radius: 5px;
+}
+
+.contribute-area2
+{
+    margin-bottom: 150px;
+}
+
+.contribute-area2 .contribute-img
+{
+    margin-left: 30px;
+}
+
+.update-area
+{
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.update-text h2
+{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.update-text p
+{
+    width: 40%;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-bottom: 80px;
+}
+
+.subscribe-form
+{
+    width: 40%;
+    padding-left: 30%;
+    padding-right: 30%;
+    background-color: #FFF4D6;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.form-email
+{
+    padding: 10px 20px;
+ 	border: 1px solid #CAD3DB;
+    width: 70%;
+	font-size: 18px;
+	color: #0F121F;
+}
+
+.form-btn
+{
+    background: #FF5959;
+	padding: 10px;
+	border: none;
+	width: 40%;
+	height: 55px;
+	font-size: 18px;
+	color: white;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.footer 
+{
+    text-align: center;
+    background-color: #0B0D17;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.footer h2
+{
+    color: #C24648;
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+.footer p
+{
+    color: #fff;
 }
