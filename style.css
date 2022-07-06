@@ -271,8 +271,10 @@ input:focus {
 .subscribe-form
 {
     width: 40%;
-    padding-left: 30%;
-    padding-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: #FFF4D6;
     padding-top: 80px;
     padding-bottom: 80px;
